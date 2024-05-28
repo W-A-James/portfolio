@@ -26,6 +26,10 @@ Menus:
       name: Blog
       title: Blog Posts
       url: /blog
+      #- identifier: projects
+      #name: Projects
+      #title: Projects
+      #url: /projects
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -62,8 +66,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "dark" 
 
   font:
     fontSize: 1rem # default: 1rem
@@ -91,8 +95,8 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Warren James" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
@@ -230,7 +234,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: true 
     title: "Personal Projects"
     items:
       - title: Networked Lights
@@ -279,14 +283,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Feel free to reach out to me! 
     btnName: Mail me
     btnLink: mailto:warren.james.dev+portfolio@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
@@ -323,5 +322,5 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>

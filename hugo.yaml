@@ -116,8 +116,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Warren."
-    subtitle: "I build things"
-    content: "A passionate developer. I like to make use of low-spec and resource-limited systems to make interesting, often artistic, projects."
+    subtitle: "I like to build things"
+    content: "I love to make use of low-spec and resource-limited systems to make interesting, useful and artistic projects."
     image: /headshot.jpeg
     bottomImage:
       enable: true 
@@ -277,11 +277,7 @@ params:
             url: https://github.com/W-A-James/MIPSView_v2
 
       - title: Cellular
-<<<<<<< HEAD
         image: /cellular.jpg
-=======
-        image: /output_w1920_h1080_f1080_r110.gif
->>>>>>> ad2eeae (Update colour scheme and projects)
         content: A CLI tool for generating gifs of elementary cellular automata
         badges:
           - "Rust"

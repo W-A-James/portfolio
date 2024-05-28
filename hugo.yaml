@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://www.wjames.dev"
 languageCode: "en-us"
 title: "Warren James"
 theme: hugo-profile
@@ -26,6 +26,10 @@ Menus:
       name: Blog
       title: Blog Posts
       url: /blog
+      #- identifier: projects
+      #name: Projects
+      #title: Projects
+      #url: /projects
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -62,8 +66,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "dark" 
 
   font:
     fontSize: 1rem # default: 1rem
@@ -72,7 +76,7 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
+  color:
   #   textColor:
   #   secondaryTextColor:
   #   backgroundColor:
@@ -80,19 +84,19 @@ params:
   #   primaryColor:
   #   secondaryColor:
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    darkmode:
+      textColor: \#e2fef0
+      secondaryTextColor: \#619806
+      backgroundColor: 
+      secondaryBackgroundColor:
+      primaryColor: \#a5f273
+      secondaryColor: \#1b4742
 
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Warren James" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
@@ -112,11 +116,11 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Warren."
-    subtitle: "I build things"
-    content: "A passionate developer. I like to make use of low-spec and resource-limited systems to make interesting, often artistic, projects."
+    subtitle: "I like to build things"
+    content: "I love to make use of low-spec and resource-limited systems to make interesting, useful and artistic projects."
     image: /headshot.jpeg
     bottomImage:
-      enable: true
+      enable: true 
       roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -168,8 +172,10 @@ params:
           I am currently working as a software developer at [MongoDB](https://www.mongodb.com/) in New York, NY. I work on the Node.js driver, with particular focus on our [BSON serialization layer](https://github.com/mongodb/js-bson).
           #### Achievements
 
+          - Converted large sections of callback code in the driver to async-await to facilitate generation of full async stack traces
+          - Contributed to design, implementation and refinement of technical specifications used across multiple teams
           - Created bespoke tooling to track performance of driver on a continuous basis, enabling the team to quickly and accurately identify and address performance regressions
-          - Spearheaded implementation of driver logging functionality
+          - Spearheaded design and initial implementation of driver logging functionality
 
       - job: "Software Engineering Intern"
         company: "MongoDB - SWE internship"
@@ -230,10 +236,11 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: true 
     title: "Personal Projects"
     items:
       - title: Networked Lights
+        image: /networkedLightBoard.jpg
         content: ESP-32 based browser-configurable light display
         badges:
           - "Arduino"
@@ -241,11 +248,13 @@ params:
           - "C++"
           - "Node.js"
           - "TypeScript"
+          - "Hardware"
         links:
           - icon: fab fa-github
             url: https://github.com/W-A-James/NetworkedLights
 
       - title: Pico Life
+        image: /PixelArray_schem.png
         content: A Game of Life implementation hooked up to a traditionally multiplexed 8x8 LED matrix
         badges:
           - "C"
@@ -256,16 +265,19 @@ params:
             url: https://github.com/W-A-James/pico-8x8-life
 
       - title: MIPSView
+        image: /MIPSView.png
         content: An interactive web-based simulator of the MIPS R2000 microprocessor
         badges:
           - "Rust"
           - "Wasm"
           - "Javascript"
+          - "education"
         links:
           - icon: fab fa-github
             url: https://github.com/W-A-James/MIPSView_v2
 
       - title: Cellular
+        image: /cellular.jpg
         content: A CLI tool for generating gifs of elementary cellular automata
         badges:
           - "Rust"
@@ -275,26 +287,33 @@ params:
           - icon: fab fa-github
             url: https://github.com/W-A-James/cellular
 
+      - title: term-timer
+        image: /c_term_timer.png
+        content: A dead simple CLI-based timer.
+        badges:
+          - "C"
+          - "CLI"
+          - "utilities"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/W-A-James/c-term-timer
+
+
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Feel free to reach out to me! 
     btnName: Mail me
     btnLink: mailto:warren.james.dev+portfolio@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
-      path: "blog"
+      path: "projects"
       count: 3
-      title: Recent Posts
-      enable: false 
-      disableFeaturedImage: true 
+      title: Recent Projects
+      enable: true 
+      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/W-A-James
 
@@ -323,5 +342,5 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+    # customScripts: # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>

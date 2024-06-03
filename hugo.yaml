@@ -1,6 +1,6 @@
 baseURL: "https://www.wjames.dev"
 languageCode: "en-us"
-title: "Warren James"
+title: "wjames.dev"
 theme: hugo-profile
 
 outputs:
@@ -20,12 +20,12 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifer: blog
-      name: Blog
-      title: Blog Posts
-      url: /blog
+#Menus:
+  #main:
+    #- identifer: blog
+    #name: Blog
+    #title: Blog Posts
+    #url: /blog
       #- identifier: projects
       #name: Projects
       #title: Projects
@@ -49,10 +49,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Warren James' portfolio"
+  description: "Warren's portfolio"
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/logo.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.

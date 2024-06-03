@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg827"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview829"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-page="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-intersection-paths="false"
+     inkscape:object-paths="true"
+     inkscape:snap-others="false"
+     inkscape:snap-nodes="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:zoom="2.6098398"
+     inkscape:cx="119.54757"
+     inkscape:cy="117.05699"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0,67.733334"
+       orientation="0,256"
+       id="guide13246" />
+    <sodipodi:guide
+       position="67.733334,67.733334"
+       orientation="256,0"
+       id="guide13248" />
+    <sodipodi:guide
+       position="67.733334,0"
+       orientation="0,-256"
+       id="guide13250" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-256,0"
+       id="guide13252" />
+    <sodipodi:guide
+       position="22.577777,67.733336"
+       orientation="1,0"
+       id="guide13462" />
+    <sodipodi:guide
+       position="45.155555,22.577778"
+       orientation="1,0"
+       id="guide13464" />
+    <sodipodi:guide
+       position="22.577777,45.155557"
+       orientation="0,-1"
+       id="guide13466" />
+    <sodipodi:guide
+       position="45.155555,22.577778"
+       orientation="0,-1"
+       id="guide13468" />
+    <sodipodi:guide
+       position="4.233333,63.500002"
+       orientation="1,0"
+       id="guide20526" />
+    <sodipodi:guide
+       position="4.2333329,63.500003"
+       orientation="0,-1"
+       id="guide20528" />
+    <sodipodi:guide
+       position="63.499999,4.2333336"
+       orientation="0,-1"
+       id="guide20530" />
+    <sodipodi:guide
+       position="63.499999,4.2333336"
+       orientation="1,0"
+       id="guide20532" />
+    <sodipodi:guide
+       position="33.866664,33.86667"
+       orientation="0,-1"
+       id="guide44906" />
+    <sodipodi:guide
+       position="33.866663,33.866671"
+       orientation="1,0"
+       id="guide44908" />
+  </sodipodi:namedview>
+  <defs
+     id="defs824">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-9.657948 : -20.965592 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="66.293035 : -15.737438 : 1"
+       inkscape:persp3d-origin="33.866666 : 22.577778 : 1"
+       id="perspective2001" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter4436"
+       x="-0.075372133"
+       y="-0.072505609"
+       width="1.1434002"
+       height="1.1379465">
+      <feGaussianBlur
+         stdDeviation="0.5 0.5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur4434" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4456" />
+      <feGaussianBlur
+         id="feGaussianBlur4458"
+         stdDeviation="0.5 0.5"
+         result="blur"
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Logo1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <g
+       id="g1971"
+       transform="translate(65.801406,7.5289888)">
+      <path
+         sodipodi:type="star"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="path74750"
+         inkscape:flatsided="true"
+         sodipodi:sides="6"
+         sodipodi:cx="127.99999"
+         sodipodi:cy="127.99999"
+         sodipodi:r1="123.51943"
+         sodipodi:r2="106.97097"
+         sodipodi:arg1="0.52359878"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 234.97096,189.75971 127.99999,251.51942 21.029026,189.75971 21.029027,66.240276 127.99999,4.4805603 234.97096,66.240277 Z"
+         transform="matrix(0.27418088,0,0,0.27418088,-67.02989,-8.7574726)" />
+      <path
+         sodipodi:type="star"
+         style="fill:#163b36;fill-opacity:1;stroke:#a5f273;stroke-width:18.0444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="path44910"
+         inkscape:flatsided="true"
+         sodipodi:sides="6"
+         sodipodi:cx="127.99999"
+         sodipodi:cy="127.99999"
+         sodipodi:r1="123.51943"
+         sodipodi:r2="106.97097"
+         sodipodi:arg1="0.52359878"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 234.97096,189.75971 127.99999,251.51942 21.029026,189.75971 21.029027,66.240276 127.99999,4.4805603 234.97096,66.240277 Z"
+         transform="matrix(0.23460689,0,0,0.23460689,-61.964415,-3.691999)" />
+      <g
+         id="g2133"
+         transform="translate(-65.074561,-7.7176981)"
+         style="fill:#0d2320;fill-opacity:1;filter:url(#filter4436)">
+        <text
+           xml:space="preserve"
+           style="font-size:30.864px;font-family:'Cathylise Janetson';-inkscape-font-specification:'Cathylise Janetson';text-align:center;text-anchor:middle;fill:#0d2320;fill-opacity:1;stroke:#000000;stroke-width:0.518187;stroke-linejoin:round;paint-order:stroke fill markers"
+           x="35.179211"
+           y="38.938896"
+           id="text2127"><tspan
+             sodipodi:role="line"
+             id="tspan2125"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.864px;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';fill:#0d2320;fill-opacity:1;stroke:none;stroke-width:0.518187"
+             x="35.179211"
+             y="38.938896">WJ</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.2749px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#0d2320;fill-opacity:1;stroke:none;stroke-width:1.7813;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           x="34.240849"
+           y="53.361115"
+           id="text2131"><tspan
+             sodipodi:role="line"
+             id="tspan2129"
+             style="font-size:18.2749px;fill:#0d2320;fill-opacity:1;stroke:none;stroke-width:1.78131;stroke-opacity:1"
+             x="34.240849"
+             y="53.361115"
+             dx="3.5571132 -3.5571132 3.524073e-06">.dev</tspan></text>
+      </g>
+      <g
+         id="g75016"
+         transform="translate(-66.132895,-8.7760315)"
+         style="fill:#a5f273;fill-opacity:1">
+        <text
+           xml:space="preserve"
+           style="font-size:30.864px;font-family:'Cathylise Janetson';-inkscape-font-specification:'Cathylise Janetson';text-align:center;text-anchor:middle;fill:#a5f273;fill-opacity:1;stroke:#000000;stroke-width:0.518187;stroke-linejoin:round;paint-order:stroke fill markers"
+           x="35.179211"
+           y="38.938896"
+           id="text2034"><tspan
+             sodipodi:role="line"
+             id="tspan2032"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.864px;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';fill:#a5f273;fill-opacity:1;stroke:none;stroke-width:0.518187"
+             x="35.179211"
+             y="38.938896">WJ</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.2749px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#a5f273;fill-opacity:1;stroke:none;stroke-width:1.7813;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+           x="34.240849"
+           y="53.361115"
+           id="text12978"><tspan
+             sodipodi:role="line"
+             id="tspan12976"
+             style="font-size:18.2749px;fill:#a5f273;fill-opacity:1;stroke:none;stroke-width:1.78131;stroke-opacity:1"
+             x="34.240849"
+             y="53.361115"
+             dx="3.5571132 -3.5571132 3.524073e-06">.dev</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Logo2" />
+</svg>

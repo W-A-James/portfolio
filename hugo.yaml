@@ -248,6 +248,7 @@ params:
           - "C++"
           - "Node.js"
           - "TypeScript"
+          - "React"
           - "Hardware"
         links:
           - icon: fab fa-github
